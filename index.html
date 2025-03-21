@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juventude Nacional Renovadora</title>
+    <link rel="icon" href="img/JNRsquarelogo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header>
+        <div class="logo-container">
+            <img src="img/JNRlogoVermelho.png" alt="JNRlogo" id="logo" draggable="true">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#manifesto">MANIFESTO</a></li>
+                <li><a href="#eventos">EVENTOS</a></li>
+                <li><a href="#galeria">GALERIA</a></li>
+                <li><a href="#contato">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="video-container">
+                <video id="hero-video" loop>
+                    <source src="" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+                <div class="video-overlay"></div>
+                <div class="video-controls">
+                    <button id="play-pause" class="control-btn">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <div class="progress-container">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <button id="mute-unmute" class="control-btn">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                    <button id="fullscreen" class="control-btn">
+                        <i class="fa-solid fa-expand"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1>A <span class="highlight">Nação</span> chama por ti!</h1>
+                <p>Juventude Nacional Renovadora</p>
+                <button class="cta-button">JUNTE-SE A NÓS</button>
+            </div>
+        </section>
+
+        <section id="manifesto" class="manifesto">
+            <div class="section-header">
+                <div class="line"></div>
+                <h2>MANIFESTO</h2>
+                <div class="line"></div>
+            </div>
+            <div class="manifesto-content">
+                <div class="manifesto-column">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-fist-raised"></i>
+                    </div>
+                    <h3>ACÇÃO</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+                <div class="manifesto-column">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h3>ORDEM</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+                <div class="manifesto-column">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-flag"></i>
+                    </div>
+                    <h3>NAÇÃO</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="eventos">
+            <div class="section-header">
+                <div class="line"></div>
+                <h2>PRÓXIMOS EVENTOS</h2>
+                <div class="line"></div>
+            </div>
+            <div class="eventos-grid">
+                <div class="evento-card">
+                    <div class="evento-date">
+                        <span class="day">15</span>
+                        <span class="month">JUN</span>
+                    </div>
+                    <div class="evento-info">
+                        <h3>MARCHA DA JUVENTUDE</h3>
+                        <p>Praça Central, 14:00</p>
+                        <div class="evento-action">
+                            <a href="#" class="btn-small">INSCREVER-SE <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="galeria">
+            <div class="section-header">
+                <div class="line"></div>
+                <h2>GALERIA</h2>
+                <div class="line"></div>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/400x300/211c1c/e91d30?text=EVENTO+4" alt="Evento 4">
+                    <div class="galeria-overlay">
+                        <h3>AÇÃO SOCIAL</h3>
+                        <p>Impacto na comunidade</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="section-header">
+                <div class="line"></div>
+                <h2>CONTATO</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contato-container">
+                <div class="contato-info">
+                    <h3>FALE CONOSCO</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Av. Principal, 1500 - Centro</p>
+                    <p><i class="fa-solid fa-phone"></i> (00) 1234-5678</p>
+                    <p><i class="fa-solid fa-envelope"></i> contato@movimento.org</p>
+                    
+                    <div class="social-media">
+                        <h4>SIGA-NOS</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">ENVIAR MENSAGEM</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/JNRPNRlogo.png" alt="JNRPNRlogo">
+                <p>Construindo o futuro da nação através da força da juventude.</p>
+            </div>
+            <div class="footer-links">
+                <h3>NAVEGAÇÃO</h3>
+                <ul>
+                    <li><a href="#manifesto">MANIFESTO</a></li>
+                    <li><a href="#eventos">EVENTOS</a></li>
+                    <li><a href="#galeria">GALERIA</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>NEWSLETTER</h3>
+                <p>Receba nossas atualizações</p>
+                <form>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Seu e-mail">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Juventude Nacional Renovadora. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
